@@ -1,0 +1,102 @@
+header {
+    display: flex;
+    background-color: #000000;
+    font-size: 46px;
+    justify-content: space-between;
+    padding: 20px;
+    text-decoration: none;
+    align-items: center;
+    color: #FFFFFF;
+}
+
+header a {
+    text-decoration: none;
+    color: inherit;
+}
+
+header img {
+    max-height: 300px;
+    width: auto;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+body {
+    text-align: center;
+    background-color: white;
+    font-size: 20px;
+    font-family: 'Lato', sans-serif;
+}
+
+h1, h2 {
+    font-weight: bold;
+    font-family: century-gothic, sans-serif;
+    color: black;
+  }
+
+.group {
+    display: flex;
+    padding: 40px;
+}
+
+.group-discount .groupdescription {
+    text-align: right;
+    background: white;
+}
+
+.group-right-text .groupdescription {
+    flex: 1;
+    text-align: right;
+    background: white;
+}
+
+img {
+    max-width: 60%;
+}
+
+.promo {
+    width: 100vw;
+    background-color: #BE965A;
+    color: black;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.groupdescription-btn {
+    display: inline-block;
+    border-radius: 25px;
+    background: #2D373D;
+    padding: 20px 40px;
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+    transition: all 0.3s;
+    margin-top: 20px;
+    cursor: pointer;
+    font-family: century-gothic, sans-serif;
+}
+
+.groupdescription-btn:hover {
+    background: #333333;
+}
+
+.image {
+    flex-basis: 50%;
+}
+
+.groupdescription {
+    text-align: left;
+    vertical-align: center;
+    margin-top: 0;
+    padding: 100px 0;
+}
+
+footer {
+    padding: 20px;
+    font-size: 14px;
+    color: black;
+}
